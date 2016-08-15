@@ -1,6 +1,11 @@
 use_frameworks!
 target 'ReactNative_Tests' do
-  pod 'ReactNative', :path => '../'
-  
+#  pod 'ReactNative', :path => '../'
+
+  source 'https://github.com/CocoaPods/Specs.git'
+
+  source 'https://github.com/snibib/PersonalLibrarySpecs.git'
+  pod 'PersonalLibrary', '~> 0.4'
+
   
 end
