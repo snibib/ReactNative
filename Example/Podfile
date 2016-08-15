@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ReactNative_Tests' do
+  pod 'ReactNative', :path => '../'
+  
+  
+end
